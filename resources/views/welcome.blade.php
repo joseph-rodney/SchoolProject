@@ -22,12 +22,14 @@
 <body class="bg-light">
   <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
     <div class="container-lg">
-        <a class="navbar-brand text-danger fw-bold fs-4">Ugacademy</a>
+        <a class="navbar-brand text-danger fw-bold fs-4" href="{{ url('/') }}">
+            {{ config('app.name', 'Laravel') }}
+        </a>
         <div class="dropdown">
           <button class="btn btn-secondary btn-danger px-3" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
           </button>
-          
+
           <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
             <li>
                 <a class="dropdown-item" href="#home">Home</a>
@@ -76,7 +78,7 @@
                     <h3 class="fs-4">Created by Kaneene Joseph Rodney</h3>
                     <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
                         nostrum ea ad quaerat omnis, aliquam deleniti ipsam. Quas id mollitia asperiores.</p>
-                    <a class="btn btn-danger px-3 mt-3" href="login.php">Get Started </a>
+                    <a class="btn btn-danger px-3 mt-3" href="{{ route('login') }}">{{ __('Get Started') }}</a>
                 </div>
             </div>
         </div>
