@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Ugacademy
 Ugacademy is a php web application built using Laravel. It's My Semester 4 school project. 
 Am currently a student at Aptech Computer Education, in my final year doing an Associate Degree in Software Engineering.
 
