@@ -27,15 +27,32 @@
           <button class="btn btn-secondary btn-danger px-3" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-bars"></i>
           </button>
+          
           <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#home">Home</a></li>
-            <li><a class="dropdown-item" href="#about">About</a></li>
-            <li><a class="dropdown-item" href="#services">Services</a></li>
-            <li><a class="dropdown-item" href="#portifolio">Portifolio</a></li>
-            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
-            <li><a class="dropdown-item" href="#contact">Contact</a></li>
-            <li><a class="dropdown-item" href="login.php">Login</a></li>
-            <li><a class="dropdown-item" href="register.php">Register</a></li>
+            <li>
+                <a class="dropdown-item" href="#home">Home</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="#about">About</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="#services">Services</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="#portifolio">Portifolio</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="#testimonials">Testimonials</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="#contact">Contact</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="{{ route('login') }}">{{ __('Login') }}</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="{{ route('register') }}">{{ __('Register') }}</a>
+            </li>
         </ul>
         </div>
     </div>
